@@ -1,0 +1,91 @@
+
+*,html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration:none;
+
+}
+
+html{
+    color:#000;
+    background-color: #FFF;
+}
+
+body,div,ul,li,h1,h2,h3,input,p,th,td,figure,figcaption{
+    
+    margin:0;
+    padding:0;
+}
+
+.awsome-site h1{
+    font-size:48px ;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+.awsome-site P,nav a{
+    font:18px;
+    color:#E5E7EB;
+}
+header a{
+    font-size:24px;
+    color:#F9FAF8;
+}
+
+.button{
+    background-color:#3882F6;
+}
+
+.random-info h2{
+    font-size: 36px;
+    font-weight:800;
+    color:#1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote P{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.call-action{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: center;
+
+    width:50%;
+    position: absolute;
+    
+}
+
+.call-action h4{
+    color: #F9FAF8;
+    padding-left:25px;
+}
+
+.call-action button{
+   
+    float: right;
+    margin-top:5px;
+}
+
+
+
+
+.top-nav,footer,.awsome-site{
+
+    background-color: #1F2937;
+}
+
+#span{
+    float:right;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;"
+}
+
+
+
