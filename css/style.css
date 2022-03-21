@@ -4,6 +4,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration:none;
+    width: fit-content;
+     block-size: fit-content;
 
 }
 
@@ -18,6 +20,50 @@ body,div,ul,li,h1,h2,h3,input,p,th,td,figure,figcaption{
     padding:0;
 }
 
+.top-nav{
+    border: 2px solid greenyellow;
+    height:115px;
+}
+
+
+.top-nav nav{
+    float: right;
+    margin-top: -25px;
+    margin-right:145px;
+
+    
+    
+}
+
+.top-nav nav a{
+    padding:5px;
+    font-size: 18px;
+}
+.awsome-site{
+    border:2px solid green;
+    padding-top: 155px;
+    /*margin-top: 25px;*/
+    text-align: center;
+    height:355px;
+}
+
+.awsome-site img{
+    border:1px solid white;
+   background-color: gray;
+  float:right;
+}
+
+.awsome-site * {
+    border: 1px solid white;
+    padding-left: 15%;
+    width: fit-content;
+     
+    
+}
+.awsome-site button{
+    float:left;
+}
+
 .awsome-site h1{
     font-size:48px ;
     font-weight: 800;
@@ -27,9 +73,19 @@ body,div,ul,li,h1,h2,h3,input,p,th,td,figure,figcaption{
     font:18px;
     color:#E5E7EB;
 }
-header a{
+
+.top-nav header{
+    padding: 15px 0px 0px 75px;
+    
+    
+}
+.top-nav header a{
+
+
     font-size:24px;
     color:#F9FAF8;
+    
+
 }
 
 .button{
@@ -42,34 +98,53 @@ header a{
     color:#1F2937;
 }
 .quote{
+   
     background-color: #E5E7EB;
+    height:255px;
+    text-align: center;
+    vertical-align: middle
+    line-height: 255px;
+    
+  
+   
+    
+    
 }
 
 .quote P{
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color:#1F2937;
+    
+
+    
+}
+
+p.author {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+        
+
 }
 
 .call-action{
     background-color: #3882F6;
-    display:flex;
-    justify-content: center;
-
     width:50%;
-    position: absolute;
-    
+    margin-left: 25%;
+    margin-bottom: 20px;
+    height: 90px;px; 
+    text-align: center;
 }
 
 .call-action h4{
-    color: #F9FAF8;
-    padding-left:25px;
+  
 }
 
 .call-action button{
-   
-    float: right;
-    margin-top:5px;
+  position: relative;
+    float:right;
+    margin: -15px 25px ;
 }
 
 
@@ -78,14 +153,18 @@ header a{
 .top-nav,footer,.awsome-site{
 
     background-color: #1F2937;
+    width: 100%;
 }
 
-#span{
-    float:right;
-    font-size: medium;
-    font-weight: bold;
-    font-style: normal;"
+footer{
+    color:#E5E7EB;
+    
+   height: 100%;
+   text-align: center;
+    height: 75px;
+
 }
+
 
 
 
